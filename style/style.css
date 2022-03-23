@@ -38,6 +38,10 @@ h1 {
     margin-bottom: 40px;
 }
 
+h2 {
+    font-size: 53px;
+    margin-bottom: 30px;
+}
 /*-----------
    header
 -----------*/
@@ -130,6 +134,41 @@ div ul li a {
 
 /*-----------
     main
+-----------*/
+
+.section {
+    padding: 300px 0;
+}
+
+.section2 {
+    background-color: lightgray;
+}
+
+.col-lft, .col-rgt {
+    float: left;
+}
+
+.col-lft {
+    width: 75%;
+}
+
+.col-lft1 {
+    float: right;
+}
+
+.col-rgt {
+    width: 25%;
+}
+
+.section-images {
+    width: 800px;
+}
+
+.col-rgt p {
+    font-size: 20px;
+}
+/*-----------
+    /main
 -----------*/
 
 /*-----------
