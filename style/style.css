@@ -23,23 +23,34 @@
     clear: both;
 }
 
-.button {
-    padding: 8px 10px;
+.btn {
     border-color: transparent;
     font-weight: bold;
-    border-radius: 15px;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
 /*-----------
    header
 -----------*/
 
+/*-----------
+   navbar
+-----------*/
+
 .header-ct {
     background-image: url(../images/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .navbar {
@@ -73,11 +84,50 @@ div ul li a {
     position: relative;
 }
 
-.nav-button {
+.nav-btn {
+    padding: 8px 10px;
     position: absolute;
     right: 0;
     background-color: #fff;
+    border-radius: 15px;
 }
+
+/*-----------
+   /navbar
+-----------*/
+
+.box-claim {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 160px 0;
+}
+
+.d-claim {
+    color: #fff;
+    word-spacing: 5px;
+    line-height: 200%;
+    padding-bottom: 30px;
+    font-size: 17px
+}
+
+.claim-btn {
+    padding: 12px 20px;
+    margin: 0 15px;
+    border-radius: 25px;
+    font-size: 18px;
+    word-spacing: 3px;
+}
+
+.black-btn {
+    background-color: #000;
+    color: #fff;
+}
+
+/*-----------
+   /header
+-----------*/
+
 /*-----------
     main
 -----------*/
