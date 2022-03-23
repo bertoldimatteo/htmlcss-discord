@@ -81,6 +81,7 @@ div ul li, div ul li a {
 
 div ul li a {
     margin: 0 20px;
+    display: inline-block;
 }
 
 .col-left, .col-middle, .col-right{ 
@@ -140,6 +141,15 @@ div ul li a {
     color: #fff;
 }
 
+.col-middle ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
 /*-----------
    /header
 -----------*/
