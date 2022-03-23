@@ -265,6 +265,27 @@ div ul li a {
     border: 1px solid #4a5882;
 }
 
+.ft2 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.col-lft-icon-ft, .col-rgt-icon-ft{
+    float: left;
+    width: 50%;
+}
+
+.col-rgt-icon-ft{
+    position: relative;
+}
+
+.btn-ft2 {
+    position: absolute;
+    right: 0;
+    background-color: #8ea1e1;
+    color: #fff;
+}
+
 /*-----------
    /footer
 -----------*/
