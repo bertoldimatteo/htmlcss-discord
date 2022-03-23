@@ -12,10 +12,72 @@
    commons
 -----------*/
 
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.button {
+    padding: 8px 10px;
+    border-color: transparent;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /*-----------
    header
 -----------*/
 
+.header-ct {
+    background-image: url(../images/jumbo.png);
+}
+
+.navbar {
+    padding: 15px;
+}
+
+div ul li, div ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+div ul li a {
+    margin: 0 20px;
+}
+
+.col-left, .col-middle, .col-right{ 
+    float: left;
+}
+
+.col-left, .col-right {
+    width: 20%;
+}
+
+.col-middle {
+    width: 60%;
+    text-align: center;
+}
+
+.col-right {
+    position: relative;
+}
+
+.nav-button {
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+}
 /*-----------
     main
 -----------*/
